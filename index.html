@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos Suba - App</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f2f5; margin: 0; padding: 15px; }
+        .header { background: #004a99; color: white; padding: 15px; border-radius: 10px; text-align: center; margin-bottom: 15px; }
+        .card { background: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border-bottom: 1px solid #eee; padding: 10px; text-align: left; font-size: 14px; }
+        th { color: #666; font-weight: normal; }
+        .mi-turno { background: #e3f2fd; font-weight: bold; color: #004a99; }
+        .noche { color: #d32f2f; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>PLANILLA MARZO 2026</h2>
+        <p>Gestión Operativa de Turnos</p>
+    </div>
+    <div class="card">
+        <table>
+            <thead><tr><th>NOMBRE</th><th>TURNO</th></tr></thead>
+            <tbody>
+                <tr class="mi-turno"><td>Erwing Arciniegas Castro</td><td>PATIO 1 - 9/21 (12h)</td></tr>
+                <tr class="noche"><td>Hairton Breidy Almario L.</td><td>NOCHE - 21/06</td></tr>
+                <tr><td>Yamis Arleth Rodriguez</td><td>LIDER 14/22</td></tr>
+                <tr><td>Eder Miguel Cardozo</td><td>INGRESOS M-B - 10/22</td></tr>
+                <tr><td>Erika Tovar Figueroa</td><td>NORTE - 14/22</td></tr>
+                <tr><td>Jesus David Castillo F.</td><td>INGRESOS M-B - 13/22</td></tr>
+                <tr><td>Sandra Daniela Espindola</td><td>DESCANSA</td></tr>
+                <tr><td>Yarin Samanta Plazas R.</td><td>LIDER 8/16</td></tr>
+                <tr><td>Edith Karina Moya L.</td><td>CAJA CARROS - 06/18</td></tr>
+                <tr><td>Yurany Liseht Gutierrez C.</td><td>CAJA MOTOS - 10/21</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        const activo = true; 
+        if (!activo) { document.body.innerHTML = "<h1 style='text-align:center;margin-top:50px;'>⚠️ ACCESO REVOCADO</h1>"; }
+    </script>
+</body>
+</html>
